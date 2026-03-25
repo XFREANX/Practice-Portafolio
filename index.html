@@ -51,7 +51,7 @@
                     <p class="home-subtitle">Hello, my name is Franklin Ferrer</p>
                     <h1 class="front-end">Front-end developer</h1>
                     <p class="home-description">I build pixel-perfect, engaging, and accessible digital experiences.</p>
-                    <a href="#contact" class="button">Contact Me</a>
+
                 </div>
 
                 <div class="home-img"><img src="assets/img/carti 2.jpg" alt="Franklin Ferrer - Front-end Developer">
@@ -63,7 +63,7 @@
         <!--==================== ABOUT ====================-->
         <section class="about section" id="about">
             <div class="about-container container">
-                
+
                 <div class="img-abt-container">
                     <img src="assets/img/carti.jpg" alt="About Me">
                 </div>
@@ -72,42 +72,48 @@
                     <div class="aboutMe-title">
                         <h2>About me</h2>
                     </div>
-                    <p class="about-description">I am a front-end developer with experience in web development. I am passionate about creating
+                    <p class="about-description">I am a front-end developer with experience in web development. I am
+                        passionate about creating
                         beautiful and user-friendly interfaces.</p>
-                    <div class="contact-me">
-                        <button class="button">Contact me</button>
-                    </div>
+                    <a href="#contact">
+                        <div class="contact-me">
+                            <button class="button">Contact me</button>
+                        </div>
+                    </a>
                 </div>
 
             </div>
         </section>
 
         <!--==================== SKILLS ====================-->
-        <section class="skills section">
+        <section class="skills section" id="skills">
 
-            <div class="skills-container">
-                <div class="skills-title">
-                    <h2>Skills</h2>
-                </div>
+            <div class="skills-container container">
+                
+                <div class="skills-data">
+                    <div class="skills-title">
+                        <h2>Skills</h2>
+                    </div>
 
-                <div class="skills-p">
-                    <p>Here i show my coding skills</p>
+                    <div class="skills-description">
+                        <p>See fully what skills i have and perform, to develop the projects for you</p>
+                    </div>
+
+                    <a href="#projects"><div class="skills-buttom-contaianer">
+                        <button>See projects</button>
+                    </div></a>
                 </div>
 
                 <div class="skills-list">
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>Node.js</li>
+                        <li>1. HTML</li>
+                        <li>2. CSS</li>
+                        <li>3. JavaScript</li>
+                        <li>4. React</li>
+                        <li>5. Node.js</li>
                     </ul>
                 </div>
-
-
-                <div class="skills-buttom-contaianer">
-                    <button>See projects</button>
-                </div>
+            
             </div>
 
         </section>
@@ -115,70 +121,89 @@
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
 
+            <div class="services-container container">
 
-            <div class="services-title">
-                <h2>Services</h2>
-            </div>
-
-            <div class="services-container">
-
-                <h3 class="services-h3">What i do</h3>
-
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Web development</h5>
-                        <p class="card-text">development of responsive and user-friendly websites</p>
+                <div class="services-data">
+                    <div class="services-title">
+                        <h2>Services</h2>
                     </div>
+                    <h3 class="services-subtitle">What I do</h3>
+                    <p class="services-description">I offer professional solutions to create pixel-perfect and engaging digital experiences.</p>
                 </div>
 
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">UI/UX Design</h5>
-                        <p class="card-text">design of responsive and user-friendly interfaces</p>
+                <div class="services-cards">
+                    
+                    <div class="services-card">
+                        <div class="services-card-body">
+                            <h5 class="services-card-title">👨‍💻 Web Development</h5>
+                            <p class="services-card-text">Development of responsive, fast, and highly interactive websites.</p>
+                        </div>
                     </div>
+
+                    <div class="services-card">
+                        <div class="services-card-body">
+                            <h5 class="services-card-title">🎨 UI/UX Design</h5>
+                            <p class="services-card-text">Design of modern and user-friendly interfaces tailored to your audience.</p>
+                        </div>
+                    </div>
+
+                    <div class="services-card">
+                        <div class="services-card-body">
+                            <h5 class="services-card-title">💡 Problem Solving</h5>
+                            <p class="services-card-text">Solving complex issues in a creative and efficient way with modern code.</p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Problem solving</h5>
-                        <p class="card-text">solving problems in a creative and efficient way</p>
-                    </div>
-                </div>
             </div>
         </section>
 
         <!--==================== PROJECTS ====================-->
-        <section class="projects section" id="projects">
-
-            <div class="projects-title">
-                <h2>Projects</h2>
-            </div>
-
-            <div class="container-projects">
+        <section class="projects-section section" id="projects">
+            
+            <div class="projects-container container">
+                
                 <div class="projects-h3">
-                    <h3>Projects</h3>
+                    <h2>Recent Projects</h2>
                 </div>
 
-                <div class="projects-p">
-                    <p>Here i show my projects</p>
+                <div class="projects-cards">
+                    <!-- Chess App -->
+                    <article class="projects-card">
+                        <div class="projects-img-wrapper">
+                            <img src="assets/img/chess.png" alt="Chess App" class="projects-img">
+                        </div>
+                        <div class="projects-content">
+                            <h3 class="projects-card-title">Chess App</h3>
+                            <a href="#" class="button projects-button">See project</a>
+                        </div>
+                    </article>
+
+                    <!-- Expense Tracker -->
+                    <article class="projects-card">
+                        <div class="projects-img-wrapper">
+                            <img src="assets/img/expense-tracker.webp" alt="Expense Tracker" class="projects-img">
+                        </div>
+                        <div class="projects-content">
+                            <h3 class="projects-card-title">Expense Tracker</h3>
+                            <a href="#" class="button projects-button">See project</a>
+                        </div>
+                    </article>
+
+                    <!-- Note Taking App -->
+                    <article class="projects-card">
+                        <div class="projects-img-wrapper">
+                            <img src="assets/img/note taking.jpg" alt="Note Taking App" class="projects-img">
+                        </div>
+                        <div class="projects-content">
+                            <h3 class="projects-card-title">Note Taking App</h3>
+                            <a href="#" class="button projects-button">See project</a>
+                        </div>
+                    </article>
                 </div>
 
-                <div class="projects-list">
-                    <ul>
-                        <li>Project 1</li>
-                        <li>Project 2</li>
-                        <li>Project 3</li>
-                    </ul>
-                </div>
-
-                <div class="projects-buttom-contaianer">
-                    <button>See projects</button>
-                </div>
             </div>
-
         </section>
 
         <!--==================== CONTACT ====================-->
